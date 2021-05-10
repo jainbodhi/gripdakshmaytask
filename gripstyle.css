@@ -1,0 +1,110 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+#main{
+width:100%;
+height:270px;
+position: relative;
+background-color: aqua;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  top:0;
+  left:0;
+  width:100%;
+}
+.logo img{height:100px;
+margin-left:12px;
+margin-top: 20px;}
+.menu{
+  list-style: none;
+display:flex;
+}
+.menu li a{height:45px;
+line-height: 43px;
+margin:10px;
+padding:0px 22px;
+display:flex;
+font-size: 1em;
+text-transform: uppercase;
+font-weight: 300;
+letter-spacing: 1.5px;
+color:black;
+box-shadow: 2px 2px 3px;
+border-radius: 3px;
+background-color: orange;}
+a{
+  text-decoration: none;
+}
+.menu li a:hover{background-color: white;
+color:black;
+transition: all ease 0.5s}
+.footer{background-color: #00ffff;
+height:140px;
+font-size:22px;
+line-height:1.5;
+padding:35px;
+float:right;
+}
+address{height:180px;
+  line-height:1.4;
+  background-color: #00ffff;
+  font-size:24px;
+  padding: 20px;
+    margin-bottom: 0px;
+    width:97%;
+
+  }
+address a {text-decoration: underline;}
+address a:hover{background-color: orange;
+color:black;
+transition: all ease 0.5s}
+.footer a:hover{background-color:yellow;
+color:black;
+transition: all ease 0.5s;
+font-size:28px;}
+.spark{font-size:20px;}
+.Content{background-image:url(contactbgimg.jpg);
+  height:800px;
+  width:100%;
+  justify-content: space-around;
+  margin-top: -25px;
+}
+.image{
+  width:37%;
+  height:460px;
+  position: absolute;
+  margin-top:160px;
+  margin-left: 40px;
+}
+.image img{
+  width:100%;
+  height:100%;
+border:solid yellow 4px;
+box-shadow: 8px 8px 5px;
+}
+.resume-btn{
+  width:220px;
+  height:64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:black;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px;
+  float:flex;
+  transform: translate(400%,880%);
+}
+.resume-btn:hover {background-color:yellow;
+transition: all ease 0.7s}
+.main-text{
+float:right;
+color:white;
+margin-right: 100px;
+margin-top:100px;
+font-size: 22px;
+line-height: 30px;}
