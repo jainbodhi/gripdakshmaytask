@@ -1,0 +1,100 @@
+body{
+margin: 0px;
+padding: 0px;
+}
+#main{
+width:100%;
+height:180px;
+position: relative;
+background-color: aqua;
+margin-bottom: 0px;
+padding-bottom: 0px;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  top:0;
+  left:0;
+  width:100%;
+}
+.logo img{height:50px;
+margin-left:12px;}
+.menu{
+  list-style: none;
+display:flex;
+}
+.menu li a{height:45px;
+line-height: 43px;
+margin:3px;
+padding:0px 25px;
+display:flex;
+font-size: 1em;
+text-transform: uppercase;
+font-weight: 300;
+letter-spacing: 1.5px;
+color:black;
+box-shadow: 2px 2px 3px;
+border-radius: 3px;
+background-color: orange;
+margin-right: 10px;}
+a{
+  text-decoration: none;
+}
+button{
+  width:210px;
+  height:44px;
+  color:black;
+  background-color: yellow;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px;
+  font-size: 26px;
+  margin-top: 40px;
+  border:solid black;
+}
+.menu li a:hover{background-color: white;
+color:black;
+transition: all ease 0.5s}
+.footer{background-color: #00ffff;
+padding: 20px;
+font-size:28px;
+line-height:1.2;
+left:0;
+bottom:0;
+height:120px;}
+.footer a:hover{background-color:red;
+color:black;
+transition: all ease 0.5s;
+font-size:32px;}
+.Content{background-image: url(gripabout.jfif);
+height:1000px;
+margin-top: -35px;
+padding-top: 0px;
+}
+section h1 {font-size: 50px;
+margin-top: 10px;}
+.main-text{font-size: 24px;}
+.main-text h1{color:yellow;}
+.main2{margin-top: 410px;
+font-size: 24px;
+margin-left: 50px;
+float: left;}
+.main3{margin-top: 380px;
+font-size: 24px;
+float:right;
+margin-left: 30px;
+}
+.main1{margin-top: 5px;
+font-size: 24px;
+float:right;
+margin-right: 180px;}
+.main4{margin-top: 43px;
+font-size: 24px;
+margin-right: 140px;
+float:left;}
+.follow{margin-top: 74px;
+  float: right;
+  margin-right: 80px;
+}
+.follow a:hover{background-color: yellow;
+font-size: 40px;}
