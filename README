@@ -1,1 +1,51 @@
-gripdakshmaytask
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="utf-8">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home-TaskGRIP</title>
+<link rel="stylesheet" type-"text/css" href="gripstyle.css">
+</head>
+<body>
+<section id="main">
+<nav>
+  <a href="#" class="logo">
+  <img src="logo.png" alt="The Logo of Project">
+  </a>
+    <ul class="menu"><span class="menu-space"></span>
+      <li><a href="#"> Home</a>
+      <li><a href="aboutus.html">About Us</a>
+      <li><a href="donate.html">Donate</a>
+      <li><a href="contact.html">Contact</a></li>
+    </ul><span class="menu-space"></span>
+</nav>
+<div class="spark"><center><i><h1>THE SPARKS FOUNDATION</h1><b>.....inspiring, innovating, integrating</b>
+</i></center></div>
+</section>
+  <div class="Content">
+    <div class="image">
+      <img src="cylinder.jpeg" alt="Gas cylinder">
+    </div>
+    <div class="main-text">
+      <h1>Covid Relief Impact </h1><br>
+<p><u><b>We began our COVID relief work in April 2020 and <br> supported the people suffering from cause, trying<br> to ease the suffering of families caught in the <br>eye of the pandemic storm – with donations from you.<br><br> We have also received support from corporates,<br> NGOs, foundations and many<br> donations through social media.
+</b></u></p></div>
+      <a href="https://rzp.io/l/NDJOf2Vn" class="resume-btn" target="_blank"> <h1> Donate</h1></a>
+  </div>
+  <div class="footer">Follow Us On : <br>
+    <a href="https://www.linkedin.com/groups/10379184" target="_blank"> <i class="fa fa-linkedin"></i> </a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://instagram.com/thesparksfoundation.info?igshid=1tm2kkvq7q00u" target="_blank"> <i class="fa fa-instagram"></i> </a>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <a href="https://twitter.com/tsfsingapore?s=08" target="_blank"><i class="fa fa-twitter"></i> </a>
+ </div>
+  <address>
+    For any queries, contact us at: <br>
+     <a href="mailto:GRIP@thesparksfoundation.sg" target="_blank"> GRIP@thesparksfoundation.sg</a><br>
+     Visit Us At : <br> <a href ="www.thesparksfoundationsingapore.org" target="-_blank"> www.thesparksfoundationsingapore.org</a> <br>
+     Singapore.
+  </address>
+</body>
+</html>
